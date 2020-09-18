@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pr1 {
+public class Pr2 {
     public static void main(String[] args){
         int x;
 
