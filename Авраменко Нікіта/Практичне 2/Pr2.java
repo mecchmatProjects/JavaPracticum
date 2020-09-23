@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pr2 {
+public class Pr1 {
     public static void main(String[] args){
         int x;
 
@@ -9,11 +9,9 @@ public class Pr2 {
         Scanner scan = new Scanner(System.in);
         x = scan.nextInt();
 
-        for ( int i=2; i < x; i++) {
-            if ( x%i == 0) {
-                System.out.println("Це число не натуральне");
-                return;
-            }
+        if ( x < 0) {
+            System.out.println("Це число не натуральне");
+            return;
         }
 
         System.out.println("Факторіал рекурсивно: " + factorial_rec(x));
