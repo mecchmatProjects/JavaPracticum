@@ -2,11 +2,13 @@ package topic_2_OOP;
 
 import java.util.Scanner;
 
-public class task_1 {
+public class task_2_1 {
     public static class Fraction{
         int m, n;
 
         public Fraction(int m, int n){
+            if (n == 0)
+                System.exit(1);
             this.m = m;
             this.n = n;
         }
