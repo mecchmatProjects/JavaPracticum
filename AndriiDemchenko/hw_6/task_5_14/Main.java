@@ -51,5 +51,9 @@ public class Main {
         System.out.println(smallGameRoom);
         System.out.println(middleGameRoom);
         System.out.println(bigGameRoom);
+
+        bigGameRoom.sortToys();
+        System.out.println("\n\tbigGameRoom sorted: ");
+        System.out.println(bigGameRoom);
     }
 }

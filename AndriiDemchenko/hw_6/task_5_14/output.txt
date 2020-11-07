@@ -111,3 +111,37 @@ Price: 16
 Color: Blue
 Size: Big
 Price: 19
+
+
+
+	bigGameRoom sorted:
+========= GAMEROOM =========
+Category: Big
+Toys amount: 5
+_____ Toys: _____
+* Car
+Brand: BMW
+Model: X5
+Color: Red
+Size: Big
+Price: 19
+
+* Ball
+Color: Blue
+Size: Big
+Price: 19
+
+* Ball
+Color: Yellow
+Size: Big
+Price: 16
+
+* Doll
+Name: Barbie
+Size: Big
+Price: 15
+
+* Doll
+Name: Diana
+Size: Big
+Price: 14

@@ -2,6 +2,7 @@ package homework_6.task_5_14;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class GameRoom {
     String category;
@@ -47,6 +48,21 @@ public class GameRoom {
         return output;
     }
 
-    void sortToys(){};
+    void sortToys(){
+        int size = toys.size();
+        int i, j, h;
+
+        for (i = 0; i < size; i++){
+            h = i;
+
+            for (j = i + 1; j < size; j++){
+                if (toys.get(j).price > toys.get(h).price){
+                    h = j;
+                }
+            }
+
+            Collections.swap(toys, i, h);
+        }
+    };
 
 }
