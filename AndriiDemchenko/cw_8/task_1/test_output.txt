@@ -1,0 +1,36 @@
+
+ --- TASK A ---
+BEFORE Serialization: ID: 2, Surname: J o h n s o n
+SERIALIZED
+AFTER Deserialization: ID: 2, Surname: J o h n s o n
+
+ --- TASK B ---
+
+BEFORE Serialization
+
+Has more than 2 things:
+ID: 1, Surname: S m i t h
+ID: 2, Surname: J o h n s o n
+ID: 3, Surname: P i t t
+ID: 4, Surname: A r m s t r o n g
+
+Has more things than avg amount:
+ID: 1, Surname: S m i t h
+ID: 3, Surname: P i t t
+
+ *** SERIALIZED ***
+
+AFTER Serialization
+
+Has more than 2 things:
+ID: 1, Surname: S m i t h
+ID: 2, Surname: J o h n s o n
+ID: 3, Surname: P i t t
+ID: 4, Surname: A r m s t r o n g
+
+Has more things than avg amount:
+ID: 1, Surname: S m i t h
+ID: 3, Surname: P i t t
+
+Process finished with exit code 0
+
