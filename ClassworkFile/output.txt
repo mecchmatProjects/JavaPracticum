@@ -1,0 +1,45 @@
+The longest word is acceptance, with 10 letters
+Words amount: 7
+Line for task3: Oh acceptance apartments up sympathize astonished delightful
+
+L=80
+W=54
+k=4
+Oh     acceptance     apartments    up    sympathize    astonished    
+
+The longest word is Waiting, with 7 letters
+Words amount: 5
+Line for task3: Waiting him new lasting towards
+
+L=80
+W=27
+k=13
+Waiting              him             new             lasting             
+
+The longest word is Continuing, with 10 letters
+Words amount: 5
+Line for task3: Continuing melancholy especially so to
+
+L=80
+W=34
+k=11
+Continuing            melancholy            especially           so           
+
+The longest word is unpleasing, with 10 letters
+Words amount: 8
+Line for task3: Me unpleasing impossible in attachment announcing so astonished
+
+L=80
+W=56
+k=3
+Me    unpleasing    impossible    in   attachment   announcing   so   
+
+The longest word is What, with 4 letters
+Words amount: 7
+Line for task3: What ask leaf may nor upon door
+
+L=80
+W=25
+k=9
+What          ask         leaf         may         nor         upon         
+
