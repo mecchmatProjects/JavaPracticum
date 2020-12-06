@@ -1,0 +1,5 @@
+Candy1 12 0.4
+Candy2 50 0.1
+Candy3 33 0.2
+Candy5 100 0.6
+Candy6 67 0.1
