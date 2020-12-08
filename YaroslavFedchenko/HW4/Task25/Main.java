@@ -1,8 +1,10 @@
-package HW4;
+package Task25;
 
 import java.util.Scanner;
-// task 2.5(OOP) Fedchenko Yaroslav
-public class task2 {
+// task 2.5(OOP) Fedchenko Yaroslav Определіть клас Інтервал с урахуванням включення / невключення.
+// Створити методи по знаходженню перетину і об'едінанню інтервалів, причому інтервали, що немають спільних точок,
+// перетинатися /обєднуватися неможуть. Оголосити масив / список / множину з n інтервалів і визначить відстань між найбільш віддаленими кінцями.
+public class Main {
     public static class Interval{
         private double l, r;
         private boolean incll, inclr;
@@ -10,15 +12,15 @@ public class task2 {
         Interval(){ }
 
         Interval(double a, double b) {
-            this.l = (a < b) ? a : b;
-            this.r = (a < b) ? b : a;
+            this.l = Math.min(a, b);
+            this.r = Math.max(a, b);
             this.incll = true;
             this.inclr = true;
         }
 
         Interval(double a, double b, boolean incll, boolean inclr) {
-            this.l = (a < b) ? a : b;
-            this.r = (a < b) ? b : a;
+            this.l = Math.min(a, b);
+            this.r = Math.max(a, b);
             this.incll = incll;
             this.inclr = inclr;
         }

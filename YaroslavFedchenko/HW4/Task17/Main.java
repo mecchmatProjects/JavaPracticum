@@ -1,9 +1,13 @@
-package HW4;
+package Task17;
 
 import java.util.ArrayList;
 import java.util.Collections;
-// task 1.7(OOP) Fedchenko Yaroslav
-public class task1{
+// task 1.7(OOP) Fedchenko Yaroslav Phone: id, Прізвище, Ім'я, По батькові, Адреса, Номер кредитної картки, Дебет, Кредит, Час міських імеждугородних разговоров.
+// Створити масив об'єктів. Вивести:
+// a) відомості обабонентах, укоторих час внутрішньоміських розмов перевищує ліміт;
+// b) відомості обабонентах, які користувалися міжміським зв'язком;
+// c) відомості обабонентах валфавітном порядку.
+public class Main{
     public static class Phone{
         int id;
         String lastName, firstName;

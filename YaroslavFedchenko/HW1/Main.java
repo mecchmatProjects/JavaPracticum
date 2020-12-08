@@ -1,7 +1,8 @@
 package HW1;
 import java.io.*;
 // task 1.7 Fedchenko Yaroslav
-public class  hw1 {
+//Ввести целі числа як аргументи командного рядку підрахувати їх добуток та вивести результат на консоль.
+public class  Main {
 
     public static void main(String[] args)  {
         int p = 1;

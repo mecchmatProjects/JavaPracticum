@@ -1,8 +1,9 @@
 package HW2;
 
 import java.util.Scanner;
-// task 4.6(г) Fedchenko Yaroslav
-public class hw2 {
+// task 4.6(г) Fedchenko Yaroslav Маємо дійсні числа . Обчислити з точністю нескінченну суму і
+//вказати кількість врахованих доданків.
+public class Main {
     static int fact(int n) {
         int result = 1;
         for (int i = 1; i <= n; i++) {

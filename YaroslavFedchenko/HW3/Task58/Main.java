@@ -1,8 +1,9 @@
-package HW3;
+package Task58;
 
 import java.util.Scanner;
-// task 5.8 Fedchenko Yaroslav
-public class hw3 {
+// task 5.8 Fedchenko Yaroslav Знайти число, яке містить лише різні цифри. Якщо їх декілька, знайдіть
+//найбільше з них.
+public class Main {
     static boolean check(int number){
         StringBuilder s = new StringBuilder();
         for(int i=number; i>0; i/=10)

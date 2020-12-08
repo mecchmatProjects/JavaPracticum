@@ -1,9 +1,9 @@
-package HW3;
+package Task67;
 
 import java.util.Random;
 import java.util.Scanner;
-// task 6.7 Fedchenko Yaroslav
-public class task2{
+// task 6.7 Fedchenko Yaroslav  Повернути матрицю на 90  градусів проти годинникової стрілки.
+public class Main{
 
     static void printMatrix(int[][] matrix){
         System.out.println();
