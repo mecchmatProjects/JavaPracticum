@@ -1,0 +1,4 @@
+games/server/handler/CrosswordHandlerTest.java
+ games.server.handler.CrosswordHandlerTest
+games/server/handler/HangmanHandlerTest.java
+ games.server.handler.HangmanHandlerTest

@@ -1,0 +1,16 @@
+-classpath '/home/pavlo/Documents/my-games/common/build/classes/java/main:/home/pavlo/Documents/my-games/common/build/resources/main'
+-d '/home/pavlo/Documents/my-games/common/build/docs/javadoc'
+-doctitle 'common API'
+-encoding 'UTF-8'
+-notimestamp 
+-quiet 
+-windowtitle 'common API'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/packet/hangman/HangmanGuessPacket.java'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/packet/hangman/HangmanStatePacket.java'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/packet/Packet.java'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/packet/NewGamePacket.java'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/packet/crossword/CrosswordResultPacket.java'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/packet/crossword/CrosswordGuessPacket.java'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/packet/crossword/CrosswordDataPacket.java'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/Constants.java'
+'/home/pavlo/Documents/my-games/common/src/main/java/games/common/SocketConnection.java'

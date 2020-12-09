@@ -1,0 +1,35 @@
+plugins {
+    id 'application'
+}
+
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':common')
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+application {
+    mainClass = 'games.server.ServerMain'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+    }
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
+javadoc {
+    options.encoding = 'UTF-8'
+}

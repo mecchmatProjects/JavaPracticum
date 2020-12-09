@@ -1,0 +1,12 @@
+-classpath '/home/pavlo/Documents/my-games/client/build/classes/java/main:/home/pavlo/Documents/my-games/client/build/resources/main:/home/pavlo/Documents/my-games/common/build/libs/common.jar:/home/pavlo/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-swing/15.0.1/3756a1cbf2755d7e22b5ddaa550cb717ab7e20cf/javafx-swing-15.0.1-linux.jar:/home/pavlo/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/15.0.1/1d2a8b3cff48cb8d83deb8aeb00226776146ebc4/javafx-fxml-15.0.1-linux.jar:/home/pavlo/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/15.0.1/11efce24b8ac1a119ec355fd7302dd1e373eb7dd/javafx-controls-15.0.1-linux.jar:/home/pavlo/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/15.0.1/7e951231ff36d704e8cc8b112b71951c9ccbc15d/javafx-controls-15.0.1.jar:/home/pavlo/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/15.0.1/6ab161d111b173da74d3754fd4017cf17d491d58/javafx-graphics-15.0.1-linux.jar:/home/pavlo/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/15.0.1/55565f47d9d4e295f8bdeb8a6577e29b8bc29267/javafx-graphics-15.0.1.jar:/home/pavlo/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/15.0.1/181dfd960832b85c67764d229c8c6fdba5cd5a35/javafx-base-15.0.1-linux.jar:/home/pavlo/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/15.0.1/88d5d4ad546e17904516fd05be69243e54144af4/javafx-base-15.0.1.jar'
+-d '/home/pavlo/Documents/my-games/client/build/docs/javadoc'
+-doctitle 'client API'
+-encoding 'UTF-8'
+-notimestamp 
+-quiet 
+-windowtitle 'client API'
+'/home/pavlo/Documents/my-games/client/src/main/java/games/client/controller/HangmanController.java'
+'/home/pavlo/Documents/my-games/client/src/main/java/games/client/controller/CrosswordController.java'
+'/home/pavlo/Documents/my-games/client/src/main/java/games/client/controller/MainController.java'
+'/home/pavlo/Documents/my-games/client/src/main/java/games/client/controller/Controller.java'
+'/home/pavlo/Documents/my-games/client/src/main/java/games/client/ClientMain.java'
