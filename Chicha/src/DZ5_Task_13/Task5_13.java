@@ -1,10 +1,21 @@
-package DZ5_Task_5_13;
+/*
+Чича Олександр
+
+13.Фургон кави. Завантажити фургон певного обєму вантажем на певну суму із різних
+сортів кави, що знаходяться, до того-ж, в різних фізичних станах (зерно, мелену,
+розчинну в банках і пакетиках). Враховувати обсяг кави разом з упаковкою. Провести
+сортування товарів на основі співвідношення ціни і ваги. Знайти в фургоні товар,
+відповідний заданому діапазону параметрів якості.
+ */
+
+package DZ5_Task_13;
+
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class DZ5_13 {
-    public static String fileName = "./src/DZ5_Task_5_13/products_list.txt";
+public class Task5_13 {
+    public static String fileName = "/products_list.txt";
 
     public static void ListOfProducts(ArrayList<Product> products){
         for (Product product: products) {
@@ -22,7 +33,7 @@ public class DZ5_13 {
         ListOfProducts(products);
 
         ArrayList<Product> equalList = new ArrayList<Product>();
-        CofeeVan van = new CofeeVan(22, equalList);
+        CoffeeVan van = new CoffeeVan(22, equalList);
 
         van.addProductsFromList(products, 300);
         System.out.println("Products in the van: ");

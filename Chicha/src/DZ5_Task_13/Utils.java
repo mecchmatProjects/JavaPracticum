@@ -1,15 +1,13 @@
-package DZ5_Task_5_13;
+package DZ5_Task_13;
 
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.util.Collections;
 
 public class Utils {
     public static ArrayList<Product> readFile(String filename) throws IOException {
-        FileReader fileReader = new FileReader(filename);
-        BufferedReader reader = new BufferedReader(fileReader);
+        InputStream inputStream = Utils.class.getResourceAsStream(filename);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 
         ArrayList<Product> products = new ArrayList<>();
 

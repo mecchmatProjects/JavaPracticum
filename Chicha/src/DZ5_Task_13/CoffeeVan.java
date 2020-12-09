@@ -1,13 +1,13 @@
-package DZ5_Task_5_13;
+package DZ5_Task_13;
 
 import java.util.ArrayList;
 
-public class CofeeVan {
+public class CoffeeVan {
     protected double volume;
     protected ArrayList<Product> productsInside;
 
-    CofeeVan(){};
-    CofeeVan(double volume, ArrayList<Product> productsInside){
+    CoffeeVan(){};
+    CoffeeVan(double volume, ArrayList<Product> productsInside){
         this.volume = volume;
         this.productsInside = productsInside;
     }

@@ -1,4 +1,4 @@
-package DZ5_Task_5_13;
+package DZ5_Task_13;
 
 public class Product {
     protected String name;
@@ -55,3 +55,4 @@ public class Product {
         return weight;
     }
 }
+
