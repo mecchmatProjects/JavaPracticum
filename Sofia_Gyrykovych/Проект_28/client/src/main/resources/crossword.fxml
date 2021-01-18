@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="games.client.controller.CrosswordController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onHome" text="Home" />
+      <VBox fx:id="vboxCrossword" layoutX="14.0" layoutY="68.0" spacing="5.0">
+         <children>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField11" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField12" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField13" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField14" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField15" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField16" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField17" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField18" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField19" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField21" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField22" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField23" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField24" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField25" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField26" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField27" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField28" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField29" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField31" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField32" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField33" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField34" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField35" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField36" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField37" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField38" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField39" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField41" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField42" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField43" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField44" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField45" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField46" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField47" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField48" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField49" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField51" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField52" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField53" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField54" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField55" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField56" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField57" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField58" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField59" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField61" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField62" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField63" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField64" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField65" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField66" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField67" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField68" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField69" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField71" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField72" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField73" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField74" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField75" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField76" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField77" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField78" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField79" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField81" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField82" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField83" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField84" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField85" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField86" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField87" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField88" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField89" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <TextField fx:id="textField91" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField92" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField93" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField94" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField95" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField96" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField97" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField98" prefHeight="25.0" prefWidth="25.0" />
+                  <TextField fx:id="textField99" prefHeight="25.0" prefWidth="25.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="labelHints" alignment="TOP_LEFT" layoutX="321.0" layoutY="68.0" prefHeight="265.0" prefWidth="265.0" text="Label" />
+      <Button layoutX="276.0" layoutY="361.0" mnemonicParsing="false" onAction="#onCheck" text="Check" />
+   </children>
+</AnchorPane>

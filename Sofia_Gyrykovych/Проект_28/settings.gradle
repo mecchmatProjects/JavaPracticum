@@ -1,0 +1,2 @@
+rootProject.name = 'my-games'
+include 'common', 'client', 'server'

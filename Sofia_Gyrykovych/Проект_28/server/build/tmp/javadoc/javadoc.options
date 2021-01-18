@@ -1,0 +1,11 @@
+-classpath '/home/pavlo/Documents/my-games/server/build/classes/java/main:/home/pavlo/Documents/my-games/server/build/resources/main:/home/pavlo/Documents/my-games/common/build/libs/common.jar'
+-d '/home/pavlo/Documents/my-games/server/build/docs/javadoc'
+-doctitle 'server API'
+-encoding 'UTF-8'
+-notimestamp 
+-quiet 
+-windowtitle 'server API'
+'/home/pavlo/Documents/my-games/server/src/main/java/games/server/handler/GameHandler.java'
+'/home/pavlo/Documents/my-games/server/src/main/java/games/server/handler/CrosswordHandler.java'
+'/home/pavlo/Documents/my-games/server/src/main/java/games/server/handler/HangmanHandler.java'
+'/home/pavlo/Documents/my-games/server/src/main/java/games/server/ServerMain.java'

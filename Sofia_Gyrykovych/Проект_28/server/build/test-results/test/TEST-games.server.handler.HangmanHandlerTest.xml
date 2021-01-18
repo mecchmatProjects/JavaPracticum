@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="games.server.handler.HangmanHandlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-09T11:30:05" hostname="pop-os" time="0.028">
+  <properties/>
+  <testcase name="handle()" classname="games.server.handler.HangmanHandlerTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

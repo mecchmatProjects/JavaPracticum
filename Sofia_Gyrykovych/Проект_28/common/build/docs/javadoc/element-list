@@ -1,0 +1,4 @@
+games.common
+games.common.packet
+games.common.packet.crossword
+games.common.packet.hangman
