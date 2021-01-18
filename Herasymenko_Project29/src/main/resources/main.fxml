@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="533.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="generator.MainController">
+   <children>
+      <MenuBar prefHeight="25.0" prefWidth="750.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onOpen" text="Open" />
+                  <MenuItem fx:id="menuItemSave" disable="true" mnemonicParsing="false" onAction="#onSave" text="Save" />
+               </items></Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fx:id="imageViewPreview" fitHeight="480.0" fitWidth="480.0" layoutX="14.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1024.png" />
+         </image>
+      </ImageView>
+      <ListView fx:id="listViewItems" layoutX="522.0" layoutY="39.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="buttonAdd" disable="true" layoutX="522.0" layoutY="248.0" mnemonicParsing="false" onAction="#onAdd" prefHeight="25.0" prefWidth="96.0" text="Add" />
+      <Button fx:id="buttonRemove" disable="true" layoutX="626.0" layoutY="248.0" mnemonicParsing="false" onAction="#onRemove" prefHeight="25.0" prefWidth="96.0" text="Remove" />
+      <TextField fx:id="textFieldText" disable="true" layoutX="522.0" layoutY="279.0" prefHeight="25.0" prefWidth="200.0" promptText="Text" />
+      <Slider fx:id="sliderHorizontal" blockIncrement="1.0" disable="true" layoutX="530.0" layoutY="345.0" majorTickUnit="1.0" max="3.0" min="1.0" minorTickCount="0" prefWidth="80.0" showTickMarks="true" snapToTicks="true" value="2.0" />
+      <Slider fx:id="sliderVertical" blockIncrement="1.0" disable="true" layoutX="667.0" layoutY="312.0" majorTickUnit="1.0" max="3.0" min="1.0" minorTickCount="0" orientation="VERTICAL" prefHeight="80.0" prefWidth="14.0" showTickMarks="true" snapToTicks="true" value="2.0" />
+      <ColorPicker fx:id="colorPickerColor" disable="true" layoutX="560.0" layoutY="406.0" />
+      <TextField fx:id="textFieldWatermark" disable="true" layoutX="532.0" layoutY="494.0" prefHeight="25.0" prefWidth="200.0" promptText="Watermark" text="(c) 2020 Meme Generator" />
+   </children>
+</AnchorPane>
