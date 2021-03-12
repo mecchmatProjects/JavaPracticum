@@ -1,0 +1,13 @@
+5 r m
+3 b w
+10 g w
+3 y m
+6 y c
+9 b c
+8 b w
+5 g m
+5 r m
+6 y c
+7 y c
+3 g w
+15 b m

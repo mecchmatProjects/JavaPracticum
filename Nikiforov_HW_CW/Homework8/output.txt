@@ -1,0 +1,8 @@
+Blues cubes amount is: 4, with 4643 total volume
+Reds cubes amount is: 2, with 250 total volume
+Yellows cubes amount is: 4, with 802 total volume
+Greens cubes amount is: 0, with 1152 total volume
+
+
+Woods cubes with edge=3 amount is: 2
+Metalic cubes with edge higher than 5 amount is: 4
